@@ -1,0 +1,27 @@
+{
+  "name": "transfer_dic_to_json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transfer.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node transfer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangshuai89/transfer_dic_to_json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangshuai89/transfer_dic_to_json/issues"
+  },
+  "homepage": "https://github.com/tangshuai89/transfer_dic_to_json#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^1.18.9"
+  }
+}
